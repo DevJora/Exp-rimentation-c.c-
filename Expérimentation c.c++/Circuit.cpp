@@ -1,3 +1,4 @@
+
 //Implémentation de course à plusieurs voitures afin de tester la montée en puissance donnée par un type  de données, tableau ou structure 
 
 /*Principe de circuit 
@@ -9,7 +10,7 @@
 
 Le circuit ici est un carré
 */
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -42,9 +43,9 @@ void afficher(int x, int y, int l, int color);
 void gotoxy(int x, int y);
 void textcolor(int color);
 
-/****************************************************************
-CREATION DE CIRCUIT
-*****************************************************************/
+//****************************************************************
+//CREATION DE CIRCUIT
+//*****************************************************************
 void create_circuit1(void) {
 	//Définition du circuit 
 	D1 = EST;
@@ -68,9 +69,9 @@ void create_circuit1(void) {
 
 }
 
-/****************************************************************
-AVANCER
-*****************************************************************/
+//****************************************************************
+//AVANCER
+//*****************************************************************
 //Sélection du trait à parcourir 
 void select_trait(void) {
 	//controler si un tour est effectué et afficher le nombre de tours réalisés 
@@ -142,9 +143,9 @@ void avancer(int l, int color1, int color2) {
 	}
 		
 }
-/****************************************************************
-AFFICHER
-*****************************************************************/
+//****************************************************************
+//AFFICHER
+//*****************************************************************
 
 void afficher(int x, int y, int l, int color) {
 	gotoxy(X, Y);
@@ -152,9 +153,9 @@ void afficher(int x, int y, int l, int color) {
 	putchar(l);
 }
 
-/****************************************************************
-OUTILS
-*****************************************************************/
+//****************************************************************
+//OUTILS
+//*****************************************************************
 void gotoxy(int x, int y) {
 	COORD c; 
 	c.X = x;
@@ -165,9 +166,9 @@ void textcolor(int color) {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 }
 
-/****************************************************************
-ACTION
-*****************************************************************/
+//****************************************************************
+//ACTION
+//*****************************************************************
 
 int main()
 {
@@ -199,4 +200,5 @@ int main()
 	system("PAUSE");
 	return 0;
 }
+*/
 
