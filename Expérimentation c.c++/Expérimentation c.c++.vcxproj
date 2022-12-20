@@ -127,8 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Circuit.cpp" />
+    <ClCompile Include="Fonction avec un circuit.cpp" />
     <ClCompile Include="Opérateur.cpp" />
+    <ClCompile Include="structure avec un le circuit.cpp" />
+    <ClCompile Include="Struture avec la fourmi.cpp" />
     <ClCompile Include="Variable simples, déclaration, affectation, affichage, saisie.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
